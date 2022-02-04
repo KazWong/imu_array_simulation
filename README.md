@@ -1,7 +1,20 @@
+# Introduction
+This package using gazebo to simulate imu with kalman filtering. acc_node and gyro_node is the basic using of kalman filtering for imu. indir_multi_sensor_data_fusion_node is the implementation of "Pose Estimation By Multisensor Data Fusion Of Wheel Encoders, Gyroscope, Accelerometer And Electronic Compass". cmdvel_acc_node is in process
+
 ## matrix equation prerequisite - Atom packages  
 mathjax-wrapper  
 markdown-writer  
 markdown-preview-plus  
+
+## Prerequisite
+1. ghost
+2. launcher
+3. config_robot
+4. config_env
+
+## run
+1. roslaunch launcher gazebosim.launch world:=env1 robot:=ideal_diff_base_multi_imu
+2. rosrun imu_array_simulation (node)
 
 # Kalman Filter
 [Introduction to Kalman Filter](https://www.kalmanfilter.net/multiSummary.html#page-top)  
