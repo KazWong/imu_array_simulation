@@ -1,3 +1,8 @@
+## matrix equation prerequisite - Atom packages  
+mathjax-wrapper  
+markdown-writer  
+markdown-preview-plus  
+
 # Kalman Filter
 [Introduction to Kalman Filter](https://www.kalmanfilter.net/multiSummary.html#page-top)  
 http://www.roboticsproceedings.org/rss01/p38.pdf  
